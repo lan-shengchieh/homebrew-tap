@@ -1,18 +1,23 @@
-# Lan-shengchieh Tap
+# Homebrew tap for keyclean
 
-## How do I install these formulae?
+Install [keyclean](https://github.com/lan-shengchieh/keyclean):
 
-`brew install lan-shengchieh/tap/<formula>`
-
-Or `brew tap lan-shengchieh/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "lan-shengchieh/tap"
-brew "<formula>"
+```sh
+brew install lan-shengchieh/tap/keyclean
 ```
 
-## Documentation
+Or tap the repository first:
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```sh
+brew tap lan-shengchieh/tap
+brew install keyclean
+```
+
+Upgrade to the latest release:
+
+```sh
+brew update
+brew upgrade keyclean
+```
+
+The Formula builds `keyclean` from its tagged Swift source release.
