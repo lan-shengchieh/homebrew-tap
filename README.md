@@ -31,7 +31,7 @@ keyclean --full         # Full Lock, Accessibility belongs to KeyClean
 keyclean --full-once    # Full Lock, then automatically revoke access
 ```
 
-Until v0.2.0 is tagged, test the new source build with:
+To test the latest development branch instead of the stable release:
 
 ```sh
 brew install --HEAD lan-shengchieh/tap/keyclean
